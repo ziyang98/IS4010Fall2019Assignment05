@@ -17,8 +17,9 @@ public class FootballFun {
 		if (translateScore(8).equals("touchdown and 2-point conversion") == true) { correctCount++;}
 		if (translateScore(-1).equals("") == true) { correctCount++;}
 		if (translateScore(1).equals("invalid") == true) { correctCount++;}
+		if (translateScore(10).equals("you must be playing Quidditch ") == true) { correctCount++;}
 		
-		if (correctCount == 7) {
+		if (correctCount == 8) {
 			System.out.println("All tests passed");
 		} else {
 			System.out.println("At least one test failed");
