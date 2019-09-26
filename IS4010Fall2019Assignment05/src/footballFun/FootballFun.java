@@ -2,8 +2,12 @@
  * Assignment 05
  * Ziyang Zeng
  * zengzg@mail.uc.edu
- * Course: IS4010 Fal 2019
- * Description: This is assignment05
+ * Due date: 03/10/2019
+ * Course: IS4010 App Dev with Java
+ * Fall 2019
+ * Description: This is assignment05. The method translateScore can return a string to describe the score number
+ * Citations:
+ * Anything else:
  */
 package footballFun;
 
