@@ -13,11 +13,12 @@ public class FootballFun {
 		if (translateScore(2).equals("safety") == true) { correctCount++;}
 		if (translateScore(3).equals("field goal") == true) { correctCount++;}
 		if (translateScore(6).equals("touchdown") == true) { correctCount++;}
-		if (translateScore(7).equals("Touchdown and extra point") == true) { correctCount++;}
-		if (translateScore(8).equals("Touchdown and 2-point conversion") == true) { correctCount++;}
+		if (translateScore(7).equals("touchdown and extra point") == true) { correctCount++;}
+		if (translateScore(8).equals("touchdown and 2-point conversion") == true) { correctCount++;}
 		if (translateScore(-1).equals("") == true) { correctCount++;}
+		if (translateScore(1).equals("invalid") == true) { correctCount++;}
 		
-		if (correctCount == 6) {
+		if (correctCount == 7) {
 			System.out.println("All tests passed");
 		} else {
 			System.out.println("At least one test failed");
