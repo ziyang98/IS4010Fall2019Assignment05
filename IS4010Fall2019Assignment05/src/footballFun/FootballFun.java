@@ -29,7 +29,7 @@ public class FootballFun {
 	/**
 	 * Return a string to describe number input
 	 * @param score
-	 * @return describing the score
+	 * @return description of the score
 	 */
 	public static String translateScore (int score) {
 		if(score == 2) {return "safety";}
