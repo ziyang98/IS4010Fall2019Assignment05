@@ -15,7 +15,9 @@ public class FootballFun {
 		if (translateScore(6).equals("touchdown") == true) { correctCount++;}
 		if (translateScore(7).equals("Touchdown and extra point") == true) { correctCount++;}
 		if (translateScore(8).equals("Touchdown and 2-point conversion") == true) { correctCount++;}
-		if (correctCount == 5) {
+		if (translateScore(-1).equals("") == true) { correctCount++;}
+		
+		if (correctCount == 6) {
 			System.out.println("All tests passed");
 		} else {
 			System.out.println("At least one test failed");
